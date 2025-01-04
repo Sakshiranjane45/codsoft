@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Ranjane - Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #022e52, #022e52);
+            color: white;
+            padding: 50px 10%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center; /* Centered content */
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Circle profile */
+            border: 5px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #190837; /* Blue background */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white; /* White text */
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px 10%;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        /* Cards */
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+
+        /* Certificates Section */
+        .certificates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .certificate-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+
+        .certificate-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .certificate-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .certificate-card a:hover {
+            background-color: #005fa3;
+        }
+
+        /* Image for Skills */
+        div img {
+            max-width: 60%; /* Smaller image size */
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Profile Photo -->
+    <img src="D:\intenship\sakshi.jpg" alt="Your Photo" class="profile-photo">
+    <h1>Sakshi Ranjane</h1>
+    <p>Aspiring Data Scientist | Machine Learning Enthusiast | AI Problem Solver</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="container">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>I am an Artificial Intelligence and Data Science engineering student at Mumbai University. My passion lies in leveraging machine learning and AI technologies to solve real-world problems. I have hands-on experience in data analysis, predictive modeling, and building intelligent systems. I aim to make an impact through innovative AI-driven solutions.</p>
+        <img src="C:\Users\ranja\Downloads\about_me_image.jpg" alt="About Me" style="max-width: 100%; border-radius: 10px; margin-top: 10px;">
+    </div>
+</section>
+
+<section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="card" style="display: flex; align-items: center;">
+        <!-- Content for Skills -->
+        <div style="flex: 1;">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>Programming Languages: Python, SQL, Java (Basics)</li>
+                <li>Machine Learning: Linear Regression, Decision Trees, K-Means Clustering</li>
+                <li>Data Analysis: Pandas, NumPy, Matplotlib, Seaborn</li>
+                <li>AI Tools: TensorFlow, Scikit-learn</li>
+                <li>Database Management: MySQL</li>
+                <li>Android Studio: Basic Development</li>
+            </ul>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Problem Solving and Critical Thinking</li>
+                <li>Content Writing and Communication</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </div>
+        <!-- Image for Skills -->
+        <div style="flex: 1; text-align: center;">
+            <img src="C:\Users\ranja\Downloads\DALL·E 2025-01-04 13.38.05 - A professional workspace showcasing various elements of technology, programming, and data science. The scene includes a laptop with Python, SQL, and J.webp" alt="Tech Workspace" style="max-width: 60%; border-radius: 10px;">
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="card">
+        <h3>Students' Attendance Management System</h3>
+        <p>A mini project that automates attendance records using Python and SQLite. The system ensures accurate and efficient record-keeping.</p>
+        <img src="C:\Users\ranja\Downloads\school.jpeg" alt="Project Image" style="max-width: 100%; border-radius: 10px;">
+    </div>
+    <div class="card">
+        <h3>Movie Recommendation System</h3>
+        <p>Developed a recommendation system using collaborative filtering and content-based filtering algorithms. Built with Python, Pandas, and Scikit-learn.</p>
+        <img src="C:\Users\ranja\Downloads\movie.jpeg" alt="Project Image" style="max-width: 100%; border-radius: 10px;">
+    </div>
+    <div class="card">
+        <h3>Data Analysis on COVID-19 Trends</h3>
+        <p>Analyzed global COVID-19 trends using Pandas and Matplotlib. Visualized data to highlight significant patterns and predictions.</p>
+        <img src="C:\Users\ranja\Downloads\covid.jpeg" alt="Project Image" style="max-width: 100%; border-radius: 10px;">
+    </div>
+</section>
+
+<section id="certificates" class="container">
+    <h2>Certificates</h2>
+    <div class="certificates">
+        <div class="certificate-card">
+            <img src="D:\intenship\indusrial tranning cer.jpg" alt="Certificate 1">
+            <p>Industrial Training Certificate</p>
+            <a href="D:\intenship\indusrial tranning cer.jpg" target="_blank">Download Certificate</a>
+        </div>
+        <div class="certificate-card">
+            <img src="C:\Users\ranja\Downloads\ethicalhacking cer_page-0001.jpg" alt="Certificate 2">
+            <p>Ethical Hacking Course</p>
+            <a href="C:\Users\ranja\Downloads\ethicalhacking cer_page-0001.jpg" target="_blank">Download Certificate</a>
+        </div>
+    </div>
+</section>
+
+<section id="resume" class="container">
+    <h2>Resume</h2>
+    <div class="card">
+        <p>You can view and download my complete resume below:</p>
+        <a href="D:\intenship\sakshi_resume.pdf" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #0078d7; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Download Resume</a>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: <a href="mailto:ranajnesakshi45@gmail.com">ranajnesakshi45@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sakshi-r-096634225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Sakshi Ranjane on LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">Your GitHub Profile</a></p>
+        <p>Contact No: <a href="tel:+919359211808">9359211808</a></p>
+    </div>
+</section>
+
+</body>
+</html>
